@@ -41,6 +41,7 @@ body {
 
 .nav-bar {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     height: 30px;
     width: -webkit-fill-available;
@@ -85,12 +86,14 @@ body {
     justify-content: space-evenly;
     margin-top: 150px;
     overflow-y: hidden;
+    flex-wrap: wrap;
     /* background-color: #e7180590; */
 }
 
 .illustration {
     width: 350px;
     transition: all .2s ease-in;
+    
 }
 
 .illustration:hover {
@@ -103,6 +106,7 @@ body {
 #about-wrapper2 {
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     margin-top: 150px;
@@ -176,6 +180,21 @@ body {
 #footer ul {
     padding-bottom: 15px;
     padding-top: 15px
-
 }
 
+@media screen and (max-width:1255px){
+    .illustration {
+        margin-bottom: 100px;
+        width: 200px; 
+    }
+    #menu-wrapper{
+        width: 800px;
+    }
+
+    #about-wrapper1, #about-wrapper2 {
+        width: 700px;
+    }
+}
+/* 
+@media screen and (min-width:)
+ */
