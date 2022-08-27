@@ -195,6 +195,21 @@ body {
         width: 700px;
     }
 }
+
+@media screen and (max-width:900px) {
+    #menu-wrapper{
+        width: 500px
+    }
+
+    #about-wrapper1, #about-wrapper2 {
+        width: 400px;
+    }
+
+    #logo img {
+        width: 400px;
+        margin: auto;
+    }
+}
 /* 
 @media screen and (min-width:)
  */
